@@ -213,7 +213,7 @@ distribution_of_female_labor_force_plot <-
         theme(panel.background = element_blank(),
               axis.line.x = element_line("black"),
               axis.line.y = element_line("black")) + 
-        xlim(c(10, 100)) + 
+        xlim(c(0, 100)) + 
         ggtitle("Distribution of Female Labor Force (% of Total) in 180 Countries") + 
         xlab("Female Labor Force (% of Total)") + 
         ylab("Proportion in Total Countries") +
